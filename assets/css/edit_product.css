@@ -1,0 +1,107 @@
+.text_center
+{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contain
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 50px 50px 50px;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #E0E0E0;
+    border: 1px solid #E0E0E0;
+    width: 500px;
+}
+
+.login_head
+{
+    background-color: #424242;
+    width: calc(100% - 40px);
+    padding: 20px;
+    font-size: large;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.login_content
+{
+    padding-top: 20px;
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.login_form
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.25em;
+}
+
+.product_img
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.product_img img
+{
+    max-height: 150px;
+    width: 150px;
+}
+
+.login_form label
+{
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+}
+
+.login_form input
+{
+    min-height: 2em;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+    width: 250px;
+    display: inline-block;
+}
+
+.login_form button
+{
+    background-color: #424242;
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    margin-top: 30px;
+}

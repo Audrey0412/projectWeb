@@ -1,0 +1,36 @@
+.contain
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.block
+{
+    border: 3px solid #424242;
+    margin-bottom: 30px;
+    width: 250px;
+}
+
+.block:hover
+{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.block a
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-decoration: none;
+    color: #424242;
+}
+
+.block div
+{
+    padding: 10px;
+}

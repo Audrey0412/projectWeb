@@ -1,0 +1,251 @@
+section
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.main_page_product
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.search
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0 20px 0;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px #E0E0E0;
+    border: 1px solid #E0E0E0;
+    width: 715px;
+    margin-left: 40px;
+
+}
+
+.search_content
+{
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_content form
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_form input
+{
+    min-height: 2em;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 1px solid #E0E0E0;
+    padding: 5px;
+    width: 600px;
+    display: inline-block;
+}
+
+.search_form button
+{
+    background-color: #424242;
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.content_product
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 50px;
+    padding-bottom: 0;
+}
+
+.product
+{
+    display: flex;
+    border: 1px solid #E0E0E0;
+    margin: 10px 10px 10px 0;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.product:hover
+{
+    box-shadow: 1px 1px 12px #555;
+}
+
+.product p
+{
+    margin-bottom: 0;
+}
+
+.product_img
+{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+
+.product_img img
+{
+    max-height: 150px;
+    width: 150px;
+}
+
+.product a
+{
+    background-color: #424242;
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    margin-top: 16px;
+    text-decoration: none;
+}
+.product a:hover
+{
+    font-weight: bold;
+}
+
+.aside_right
+{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;
+    flex: 1.2;
+    position: relative;
+    border-radius: 5px;
+    padding: 50px;
+    font-size: 0.9em;
+    align-items: center;
+}
+
+.cart
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    align-self: flex-start;
+    box-shadow: 1px 1px 12px #BDBDBD;
+}
+
+.cart_top
+{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.cart_center {
+    display:block ;
+    float:left;
+    width: 80%;
+    font-size: small;
+}
+
+.cart_center .pcenter{
+    text-align: center;
+}
+
+
+.cart_center table {
+    font-size: small;
+}
+
+.prod_plus a {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0 0 0 0;
+}
+
+.prod_minus a {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.prod_cancel button {
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.prod_plus .fa {
+    color: #424242;
+    margin: 7px;
+}
+
+.prod_minus .fa {
+    color: #424242;
+}
+
+.prod_cancel .fa {
+    color: red;
+    margin-left: 10px;
+}
+
+.cart_bottom
+{
+    display: flex;
+    width: 100%;
+    height: 3em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0, 0, 0, .26);
+    color: #424242;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.link
+{
+    background-color: #424242;
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    margin-top: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+.link:hover
+{
+    font-weight: bold;
+}

@@ -1,0 +1,141 @@
+.nav_admin_menu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_admin_menu div
+{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav_admin_menu ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    background-color: #424242;
+    margin: 0;
+    padding: 0;
+    width: 600px;
+    justify-content: space-around;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+}
+
+.nav_admin_menu li
+{
+    width: 200px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+.nav_admin_menu a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav_admin_menu ul a:hover
+{
+    background-color: white;
+}
+
+.nav_admin_menu a > li:hover
+{
+    color: black;
+}
+
+.active {
+    background-color: white;
+    color: black!important;
+}
+
+table
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: collapse;
+    margin: 50px 0 50px 0;
+    padding: 0;
+    box-shadow: 0 1px 4px #878a85;
+    border: 1px solid #878a85;
+    border-top: none;
+}
+
+tr
+{
+    border: solid 1px #E0E0E0;
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+    background-color: #424242;
+    color: white;
+}
+
+.head p
+{
+    margin: 4px 0 4px 0;
+}
+
+td
+{
+    text-align: center;
+    border: solid 1px #E0E0E0;
+    width: 148px;
+    margin: 0;
+    padding: 0;
+}
+
+.admin
+{
+    background-color: #424242;
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: white;
+    border: 0;
+    font-size: medium;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+.admin:hover
+{
+    font-weight: bold;
+}
+
+.user
+{
+    padding: .25em 1em;
+    border-radius: 5px;
+    color: #424242 !important;
+    font-size: medium;
+    margin-top: 16px;
+    text-decoration: none;
+    border: 1px solid #424242;
+}
+
+.user:hover
+{
+    font-weight: bold;
+}
+
+.trash
+{
+    color: #424242!important;
+}
+
+.trash:hover
+{
+    color: black!important;
+}

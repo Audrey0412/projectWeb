@@ -1,0 +1,55 @@
+.contener
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    min-height: 45vh;
+}
+
+.cart
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    align-self: flex-start;
+    box-shadow: 1px 1px 12px #BDBDBD;
+}
+
+.cart_top
+{
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+    width: 100%;
+    height: 3em;
+    align-items: center;
+    justify-content: center;
+    background-color: #424242;
+    color: white;
+}
+
+.message
+{
+    padding-top: 40px;
+    text-align: center;
+    min-height: 40vh;
+}
+.message p
+{
+    padding: 10px;
+}
+.message a
+{
+    text-decoration: none;
+    color: #424242;
+    font-weight: bold;
+}
+
+.message a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}

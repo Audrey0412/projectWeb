@@ -1,0 +1,22 @@
+.message
+{
+    padding-top: 40px;
+    text-align: center;
+    min-height: 40vh;
+}
+.message p
+{
+    padding: 10px;
+}
+.message a
+{
+    text-decoration: none;
+    color: #424242;
+    font-weight: bold;
+}
+
+.message a:hover
+{
+    text-decoration: underline;
+    font-weight: bold;
+}

@@ -1,0 +1,57 @@
+.contain_gender
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.item_gender
+{
+    text-align: center;
+}
+
+.item_gender a
+{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+.item_gender a:hover
+{
+    filter: blur(2px) brightness(0.8);
+}
+
+.title_gender
+{
+    transform: translateY(-270px);
+}
+
+.title_gender h2
+{
+    font-size: 35px;
+    margin: 0;
+}
+.title_gender h3
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 0;
+}
+
+@media (max-width: 767px) {
+    .contain_gender {
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+
+    .item_gender {
+        margin-bottom: -70px;
+    }
+
+    .item_gender {
+
+    }
+}
+

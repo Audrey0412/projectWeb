@@ -1,0 +1,257 @@
+@font-face
+{
+    font-family: 'Roboto';
+    src: url(../fonts/Roboto-Regular.ttf)
+}
+
+body
+{
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    color: #424242;
+}
+
+/*Header*/
+
+#nav_main_menu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .26);
+    padding: 0 30px 0 0;
+    text-transform: uppercase;
+
+}
+
+#nav_main_menu ul
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+}
+
+#nav_main_menu li
+{
+    padding: 39px 10px 39px 10px;
+}
+
+#nav_main_menu a
+{
+    text-decoration: none;
+    color: #424242;
+}
+
+#nav_main_menu ul a:hover
+{
+    background-color: #424242;
+}
+
+#nav_main_menu a > li:hover
+{
+    color: white;
+}
+
+.image
+{
+    width: 150px;
+}
+
+.active
+{
+    font-weight: bold;
+}
+
+/* Page Elements */
+
+#title_page
+{
+    text-align: center;
+    color: #424242;
+    margin: 30px 0 30px 0;
+}
+
+#nav_main_menu .burger {
+    display: none
+}
+
+@media (max-width: 767px) {
+
+    body.open-menu {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+
+    body.open-menu .master-container {
+        position: fixed;
+        left: 60vw;
+        width: 100vw;
+        overflow: hidden;
+    }
+
+    body.open-menu .master-container {
+        position: fixed;
+        top: 60px;
+    }
+
+    body.open-menu #nav_main_menu .burger {
+        position: fixed;
+        left: 60vw;
+        top: 0;
+    }
+
+    #nav_main_menu {
+        z-index: 10;
+    }
+
+    #nav_main_menu .burger {
+        display : inline-block;
+        padding: 20px;
+        cursor: pointer;
+    }
+
+    #nav_main_menu .logo {
+        display: none;
+    }
+
+    body #nav_main_menu .links {
+        display: none;
+    }
+
+    body.open-menu #nav_main_menu .links {
+        display: block;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 60vw;
+        height: 100vh;
+        background-color: white;
+        z-index: 100;
+        padding-bottom: 60px;
+        border-right: 1px solid #E0E0E0;
+    }
+
+    body.open-menu #nav_main_menu .account {
+        display: block;
+        position: fixed;
+        bottom: 30px;
+        left: 0;
+        width: 60vw;
+        z-index: 110;
+        padding-left: 50px;
+    }
+
+    body.open-menu #nav_main_menu .account .fa {
+        display: none;
+    }
+
+    #nav_main_menu img {
+        width: 60vw;
+    }
+
+    #nav_main_menu ul {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-top: 40px;
+    }
+
+    #nav_main_menu li {
+        padding: 10px;
+    }
+
+    #nav_main_menu .account {
+        display: none;
+    }
+}
+
+/* Footer */
+
+footer
+{
+    display: flex;
+    background: #424242;
+    color: white;
+    padding: 30px 0 30px 0;
+    width: 100%;
+    Justify-content:space-between;
+    align-items: flex-start;
+    margin-top: 0;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, .26);
+}
+
+footer div
+{
+    width: 28%;
+}
+
+footer p
+{
+    font-size: 0.8em;
+    list-style-type: none;
+    margin: 5px;
+}
+
+footer h1
+{
+    font-size: 1.1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover
+{
+    border-bottom: 2px solid white;
+}
+
+.master-content {
+    min-height: 60vh;
+}
+
+@media (max-width: 767px) {
+    footer {
+        flex-direction: column;
+    }
+
+    footer div {
+        width: 95vw;
+        margin-left: 2.5vw;
+        margin-top: 30px;
+    }
+
+    footer div:last-child {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 767px) {
+    .no-large {
+        display: none;
+    }
+}
+
+.lastname
+{
+    text-transform: uppercase;
+}
+
+.firstname
+{
+    text-transform: capitalize;
+}
